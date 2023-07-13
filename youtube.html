@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<head>
+   <title>YouTube.com Clone</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">     
+
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+<body>
+   <hearder class="hearder">
+      <div class="left-section"> 
+         <img class="hamburger-menu" src="icons/menu.jpg">
+         <img class="youtube-logo" src="icons/you logo.jpg">
+      </div>
+      <div class="middle-section">
+         <input class="search-bar" type="text" placeholder="Search">
+         <button class="search-button">
+            <img class="search-icon" src="icons/search-icon.png">
+            <div class="tooltip">Search</div>
+         </button>
+         <!--put the position absolute inside the
+         position relative-->
+         <button class="vioce-search-button">
+            <img class="voice-search-icon" src="icons/microphone.png">
+            <div class="tooltip">your voice</div>
+         </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+         <img class="upload-icon" src="icons/connect.jpg">
+         <div class="tooltip">connect</div> 
+        </div>
+         <img class="youtube-apps-icon" src="icons/6dots.jpg">
+         <div class="notification-icon-container">
+            <img  class="notification-icon" src="icons/not.jpg">
+            <div class="notification-count">4</div>
+         </div>
+         <img class="current-user-picture" src="icons/login.jpg">
+      </div>      
+   </hearder>
+
+   <nav class="sidebar">   
+      <div class="sidebar-link">
+         <img src="icons/home.png">
+         <div>Home</div> 
+      </div>
+      <div class="sidebar-link">
+         <img src="icons/direction.png">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+         <img src="icons/subscribe.png">
+         <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+         <img src="icons/youtube.png">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+         <img src="icons/youtube-music.png">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+         <img src="icons/library.png">
+         <div>Library</div>
+      </div>
+   </nav>
+   <main>
+   <section class="video-grid">
+     <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_1.jpg">
+         <div class="video-time">14:20</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile1.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">How to lead a <strong>Quite life</strong>-12 tips for a quite life</p>
+            <p class="video-auother">BRAINY DOSE</p>
+            <p class="viedo-stats">1.5M views &#183; 10 months ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thumbnail_2.jpg">
+         <div class="video-time">20:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile2.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">The most beautiful Places to Visit around the world</p>
+            <p class="video-auother">Our Awesome World</p>
+            <p class="viedo-stats">2.9M views &#183; 2 months ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/savithri.jpg">
+         <div class="video-time">13:19</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/savithri.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">Mahanati Savitri Rare Interview in Radio |Savitri Interive <span style="color: blue;">#MahanatiSavitri</span></p>
+            <p class="video-auother">Showing Cinema</p>
+            <p class="viedo-stats">833K views &#183; 5 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_3.jpg" >
+         <div class="video-time">10:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile.3jpg.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">The Easiest Way To Make $500+ Per Day(PASSIVELY)</p>
+            <p class="video-auother">Emilie Reich</p>
+            <p class="viedo-stats">34K views &#183; 2 months ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_7.jpg">
+         <div class="video-time">30:05</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile.4.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">5 Tips To Make Your Food Amazing</p>
+            <p class="video-auother">Refika's Kitchen</p>
+            <p class="viedo-stats">136K views &#183; 1 yearago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img  class="thumbnail" src="thumbnails/thubnail_5.jpg">
+         <div class="video-time">10:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img  class="profile-picture" src="profile.html/profile5.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">BACK TO SCHOOL supplies shooping 2023|senior year!</p>
+            <p class="video-auother">daisy islas</p>
+            <p class="viedo-stats">37K views &#183; 11 months Sago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_6.jpg">
+         <div class="video-time">15:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile.6.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title"> How To Start Your Own Business in 2023| Episode 1 -Small Business 101</p>
+            <p class="video-auother">Gilian Perkins</p>
+            <p class="viedo-stats">751K views &#183; 2 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_4.jpg">
+         <div class="video-time">6:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile7.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">5 Ways To Make Money As A Teenager Online [Zero Investment]!</p>
+            <p class="video-auother">Ayushman Pandita</p>
+            <p class="viedo-stats">3.8M views &#183; 1 year ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_8.jpg">
+         <div class="video-time">1:30:24</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile8.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title"> The Power Of <strong>Music</strong> </p>
+            <p class="video-auother">Nathan Zed</p>
+            <p class="viedo-stats">790K views &#183; 2 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_14.jpg">
+         <div class="video-time">4:16:08</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile9.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">STUDY WITH ME 4hrs with breaks &#10024; 50/10 pomodoro (no music)</p>
+            <p class="video-auother">Maria Silva</p>
+            <p class="viedo-stats">3.6M views &#183; 10 months ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_10.jpg">
+         <div class="video-time">40:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile10.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">PUBE Lite FULL RUSH GAME. &#127918;PLAY &#9654; ON MOBILE ZOMBIE MODE</p>
+            <p class="video-auother">PUBG_LITE_KING_RAJ</p>
+            <p class="viedo-stats">219k views &#183; 1 year ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_16.jpg">
+         <div class="video-time">12:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile11.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">FOCUS ON YOURSELF NOT OTHERS(motivational video)</p>
+            <p class="video-auother">Law of Attraction Coaching</p>
+            <p class="viedo-stats">8.5M views &#183; 2 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_12.jpg">
+         <div class="video-time">14:05</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile12.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">5 FUN FACTS ABOUT READING| Episode 1</p>
+            <p class="video-auother">Astrolabe</p>
+            <p class="viedo-stats">42K views &#183; 5 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_13.jpg">
+         <div class="video-time">14:07</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile13.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title"> How To Improve Your Handwriting Fast With Simple Tricks |Handwriting Improving STips</p>
+            <p class="video-auother">ChetChat</p>
+            <p class="viedo-stats">269K views &#183; 1 year ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_9.jpg">
+         <div class="video-time">5:30</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile14.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">Naa Kosam-Full Video | Bangarraju | Naga Chaitanya | Krithi Shetty | Anu Rubens | Sid Sriram</p>
+            <p class="video-auother">Zee Music South</p>
+            <p class="viedo-stats">59M views &#183; 1 year  ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_15.jpg">
+         <div class="video-time">30:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile15.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">REAL TIME  study with me(no music):2 hour pomodoro session(50 min)with break(background noise)</p>
+            <p class="video-auother">Angela V</p>
+            <p class="viedo-stats">1.2M views &#183; 3 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_11.jpg">
+         <div class="video-time">10:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile16.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">How to choose the right career? By Sandeep Maheshwari |Hindi</p>
+            <p class="video-auother">Sandeep Maheshwari</p>
+            <p class="viedo-stats">3.3M views &#183; 2 years ago</p>
+         </div>
+      </div>
+   </div> 
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_17.jpg">
+         <div class="video-time">14:20</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile17.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">TRY IT FOR 21 DAYS TO CHANGE YOURSELF |6 HABITS OF 99% SUCCESSFUL PEOPLE |Telugu Geeks</p>
+            <p class="video-auother">Telugu Geeks</p>
+            <p class="viedo-stats">2.7M views &#183; 1 year ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_22.jpg ">
+         <div class="video-time">30:09</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile18.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">A day in my life ||Living ,y life ||aesthetic vlog  &#127809;</p>
+            <p class="video-auother">Cansu</p>
+            <p class="viedo-stats">7.8K views &#183; 2 months ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_19.jpg">
+         <div class="video-time">25:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile19.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">75 YOUTUBE CHANNEL IDEAS(and How To Monetise Each One!)</p>
+            <p class="video-auother">Learn With Seb</p>
+            <p class="viedo-stats">102K views &#183; 2 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_20.jpg">
+         <div class="video-time">14:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile20.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">Failure is Part of Success: Eduerdo Zanatta at TEDXxBYU</p>
+            <p class="video-auother">TEDX Talks</p>
+            <p class="viedo-stats">415K views &#183; 11 years ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_21.jpg">
+         <div class="video-time">12:20</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile21.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">Useful Life Hacks Tht Will Speed Up Your Everyday Routine</p>
+            <p class="video-auother"> 5-Minute Crafts PLAY</p>
+            <p class="viedo-stats">399K views &#183; 2 months ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_18.jpg">
+         <div class="video-time">15:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile22.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title">It's Never Enough- The Most Powerful Motivational Speech |Coach Pain</p>
+            <p class="video-auother">Coach Pain</p>
+            <p class="viedo-stats">7.9K views &#183; 6 months ago</p>
+         </div>
+      </div>
+   </div>
+   <div class="video-preivew">
+      <div class="thumbnail-row">
+         <img class="thumbnail" src="thumbnails/thubnail_23.jpg">
+         <div class="video-time">5:00</div>
+      </div>
+      <div class="video-info-grid">
+         <div class="chanel-picture">
+            <img class="profile-picture" src="profile.html/profile23.jpg">
+         </div>
+         <div class="video_info">
+            <p class="video-title"> How To Completely Transform Your Life in 6 months(the butterfly effect &#x1F98B;)</p>
+            <p class="video-auother">Tina Huang</p>
+            <p class="viedo-stats">855K views &#183; 6 months ago</p>
+         </div>
+      </div>
+   </div>
+   </section>
+</main>       
+</body>
